@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (!b1.equals("") && b1.equals(b5) && b5.equals(b9)) {
                     Toast.makeText(this, "Game won by " + b1, Toast.LENGTH_SHORT).show();
                     restart();
-                } else if (!b3.equals("") && b3.equals(b5) && b5.equals(b9)) {
+                } else if (!b3.equals("") && b3.equals(b5) && b5.equals(b7)) {
                     Toast.makeText(this, "Game Won by" + b3, Toast.LENGTH_SHORT).show();
                     restart();
                 } else if (count == 9) {
